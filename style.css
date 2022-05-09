@@ -1,0 +1,228 @@
+html * {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* <DIV> TAGS */
+
+.loginTitle {
+    font-size: 100px;
+}
+
+/* HOME TITLE */
+
+.mainTitle {
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.mainTitle h1 {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.mainTitle h2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: white;
+}
+
+/* FLEX ROW */
+
+#flexRow .tile {
+    width: 50%;
+    margin-right: 10px;
+}
+
+#flexRow {
+    display: flex;
+    align-items: stretch;
+}
+
+/* TILE */
+
+.tile {
+    background-color: white;
+    padding: 10px;
+    /* border-radius: 25px; */
+    box-shadow: 0px 0px 5px gray;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.tile h3 {
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+
+.tile h4 {
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: normal;
+    color: red;
+}
+
+/* TIMETABLE TILE */
+
+.timetableTile {
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+
+    /* width: 10%; */
+
+    display: table-row;
+    justify-content: space-around;
+    flex-direction: column;
+
+    border: #EAEAEA;
+    border-style: solid;
+
+}
+
+.timetableTile h4 {
+    color: white;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.timetableTile:hover {
+    border: black;
+    border-style: solid;
+}
+
+/* DUE WORK TILE */
+
+.dueWorkTile {
+    padding: 10px;
+    /* border-radius: 20px; */
+    margin-bottom: 10px;
+    
+    border: #EAEAEA;
+    border-style: solid;
+}
+
+.dueWorkTile h4 {
+    color: white;
+    font-weight: normal;
+    margin: 10px;
+
+}
+
+.dueWorkTile:hover {
+    border: #000000;
+    border-style: solid;
+}
+
+/* NOTIFICATION TILE */
+
+.notificationTile {
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+    border: #EAEAEA;
+    border-style: solid;
+}
+
+.notificationTile h4 {
+    color: white;
+    font-weight: normal;
+    margin: 10px;
+
+}
+
+/* SPACER */
+
+.spacer {
+    
+    filter: blur(5px);
+    height: 3em;
+}
+
+/* HEADER */
+
+header {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px gray;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.headerButton a {
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.headerButton {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.headerButton:hover {
+    /* box-shadow: 0px 0px 10px gray; */
+    background-color: #EAEAEA;
+}
+
+.headerButton h5 {
+    font-weight: bold;
+    font-size: 0.9em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* TEXT TAGS */
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.verticalTimetableView {
+    table-layout: fixed;
+    width: 100%;
+}

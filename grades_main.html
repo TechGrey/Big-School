@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 
+<!-- COLOURS OF CLASSES:  -->
+
 <html>
     <head>
-        <link rel="stylesheet", type="text/css", href="gradeStyle.css"/>
+        <link rel="stylesheet", type="text/css", href="style.css"/>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -10,9 +12,10 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-        <body style="background-color: #F4F7FF;"></body>
+        <body style="background-image: url('https://images.squarespace-cdn.com/content/v1/5c6cfe5c92441ba8a960a9b6/1551078672306-VMINVPYKI8R966XTCBCL/fb_The+Miles+Warren+Building+_+from+Upper+_+1+of+6_1.jpg?format=2500w');"></body>
 
-        <title>Your Grades</title>
+        <!-- F4F7FF -->
+        <title>Big School Beta</title>
 
         <meta name="theme-color" content="#f4f7ff">
 
@@ -21,9 +24,9 @@
 
     <body>
 
-        <header>
+        <!-- <header style="margin-left: -10px; margin-right: -10px; border-radius: 0px;">
 
-            <div class="headerButton" style="margin-left: 0px;">
+            <div class="headerButton">
                 <h5>
                     Classes
                 </h5>
@@ -33,6 +36,12 @@
                 <h5>
                     Due Work
                 </h5>
+            </div>
+
+            <div class="headerButton">
+
+                <a href="/grades_main.html">Grades</a>
+
             </div>
 
             <div class="headerButton">
@@ -47,296 +56,55 @@
                 </h5>
             </div>
 
-            <div class="headerButton">
-                <h5>
-                    Routines
-                </h5>
-            </div>
+        </header> -->
 
-        </header>
+        <div class="main">
 
-        <div class="home">
-            
-            <div class="mainTitle", style="margin-top: 10px; background-image: url('https://images.unsplash.com/photo-1581196607303-95c00f31c676?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')"">
-
-                <div class="spacer"></div>
-
-                <h1>
-                    Your Grades this Year
+            <div class="test">
+                <h1 style="font-weight: 800; color: white;">
+                    Grades
                 </h1>
-    
             </div>
 
-            <!-- Chemistry Row -->
-
-            <div id="flexRow", class="row">
-
-                <div class="tile" style="background-color: #0673C6;">
-
-                    <h3>
-                        Year 12 Chemistry - All Standards
-                    </h3>
+            <div class="mainView">
+                <div id="grades" class="stack" style="margin: 10px; width: 100%;"">
     
-                    <div class="verticalGradeView" style="margin-top: 10px;">
-    
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Molecules - Internal
+                    <div class="tile" style="margin: 0px 10px 0px 10px; margin-top: 0px;">
+                        <h3 style="font-weight: 700;">
+                            Level 2 Chemistry
+                        </h3>
+        
+                        <a href="grades_sub.html">
+                            <div class="tile" style="background-color: #001652; margin-top: 0px;">
+                                <h4 style="color: #FFFFFF; font-weight: bold;">
+                                    Level 2 Mathematics
+                                </h4>
+            
+                                <h4 style="color: #FFFFFF">
+                                    09:00 - 09:50
+                                </h4>
+            
+                                <h5 style="color: #FF0000; font-weight: 500;">
+                                    One assessment happening today.
+                                </h5>
+                            </div>
+                        </a>
+        
+                        <div class="tile" style="background-color: #001652">
+                            <h4 style="color: #FFFFFF; font-weight: bold;">
+                                Level 2 Mathematics
                             </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #2A558C;">
-                                Excellence
+        
+                            <h4 style="color: #FFFFFF">
+                                09:00 - 09:50
                             </h4>
+        
+                            <h5 style="color: #FF0000; font-weight: 500;">
+                                One assessment happening today.
+                            </h5>
                         </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Elements - Derived Grade
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #999999;">
-                                Not Assessed
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Particlel Structure - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #05D58C;">
-                                Merit
-                            </h4>
-                        </div>
-                        
-                        
                     </div>
-    
                 </div>
-
-                <div class="tile" style="background-color: #F5BE29; margin-left: 20px;">
-
-                    <h3>
-                        Year 12 Digital Technology - All Standards
-                    </h3>
-    
-                    <div class="verticalGradeView" style="margin-top: 10px;">
-    
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Molecules - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #2A558C;">
-                                Excellence
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Elements - Derived Grade
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #999999;">
-                                Not Yet Assessed
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Particlel Structure - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #05D58C;">
-                                Merit
-                            </h4>
-                        </div>
-                        
-                        
-                    </div>
-    
-                </div>
-                
-            </div>
-
-            <div id="flexRow", class="row">
-
-                <div class="tile" style="background-color: #F5BE29;">
-
-                    <h3>
-                        Year 12 Design and Visual Communication - All Standards
-                    </h3>
-    
-                    <div class="verticalGradeView" style="margin-top: 10px;">
-    
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Molecules - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #2A558C;">
-                                Excellence
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Elements - Derived Grade
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #999999;">
-                                Not Assessed
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Particlel Structure - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #05D58C;">
-                                Merit
-                            </h4>
-                        </div>
-                        
-                        
-                    </div>
-    
-                </div>
-
-                <div class="tile" style="background-color: #B0413E; margin-left: 20px;">
-
-                    <h3>
-                        Year 12 English (Texts and Context) - All Standards
-                    </h3>
-    
-                    <div class="verticalGradeView" style="margin-top: 10px;">
-    
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Molecules - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #2A558C;">
-                                Excellence
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Elements - Derived Grade
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #999999;">
-                                Not Yet Assessed
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Particlel Structure - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #05D58C;">
-                                Merit
-                            </h4>
-                        </div>
-                        
-                        
-                    </div>
-    
-                </div>
-                
-            </div>
-
-            <div id="flexRow", class="row">
-
-                <div class="tile" style="background-color: #0673C6;">
-
-                    <h3>
-                        Year 12 Mathematics for Calculus - All Standards
-                    </h3>
-    
-                    <div class="verticalGradeView" style="margin-top: 10px;">
-    
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Molecules - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #2A558C;">
-                                Excellence
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Elements - Derived Grade
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #999999;">
-                                Not Assessed
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Particlel Structure - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #05D58C;">
-                                Merit
-                            </h4>
-                        </div>
-                        
-                        
-                    </div>
-    
-                </div>
-
-                <div class="tile" style="background-color: #0673C6; margin-left: 20px;">
-
-                    <h3>
-                        Year 12 Physics - All Standards
-                    </h3>
-    
-                    <div class="verticalGradeView" style="margin-top: 10px;">
-    
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Molecules - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #2A558C;">
-                                Excellence
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Elements - Derived Grade
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #999999;">
-                                Not Yet Assessed
-                            </h4>
-                        </div>
-
-                        <div class="gradeTile" style="background-color: white;">
-                            <h4 style="font-weight: bold;">
-                            Particlel Structure - Internal
-                            </h4>
-    
-                            <h4 id="gradeIcon" style="background-color: #05D58C;">
-                                Merit
-                            </h4>
-                        </div>
-                        
-                        
-                    </div>
-    
-                </div>
-                
             </div>
 
         </div>

@@ -1,0 +1,198 @@
+html * {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    align-items:stretch;
+}
+
+.flexRow {
+    display: flex;
+}
+
+.flexRow .tile {
+    flex-direction: row;
+}
+
+/* <DIV> TAGS */
+
+.loginTitle {
+    font-size: 100px;
+}
+
+.number {
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.number h2 {
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+/* TILE */
+
+.tile .stack h4 {
+    font-weight: 700;
+}
+
+#relevantToYou {
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+.tile {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    display: block;
+}
+
+#workAndGradesSubTile {
+    color: #FFFFFF;
+    background-color: #001652;
+    width:100%;
+    display: flex;
+    flex-direction: horizontal;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#workAndGradesSubTile h5 {
+    font-size: 500em;
+}
+
+#workAndGradesSubTile h4 {
+    color: #FFFFFF;
+    font-size: 0.85em;
+}
+
+#large {
+    width: 40%;
+    height: 500px;
+}
+
+.tile h3 {
+    margin: 5px 5px 5px 5px;
+}
+
+.tile h4 {
+    margin: 5px 5px 5px 5px;
+    font-weight: normal;
+    color: black;
+}
+
+.tile h5 {
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-weight: normal;
+    color: black;
+}
+
+/* TEXT TAGS */
+
+/* DOT */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tile h5 {
+    font-size: 1.0rem;
+}
+
+.verticalTimetableView {
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* STACKS */
+
+#topLevel {
+    float: left;
+}
+
+.stack {
+    display: block;
+}
+
+.stack h4 {
+    font-size: 1.15rem;
+    font-weight: 100px;
+
+}
+
+/* GRADES */
+
+#grades {
+    margin: 10px;
+    width: 100%;
+}
+
+#grades .tile {
+    margin-top: 10px;
+}
+
+/* SECTIONS */
+
+section {
+    padding-top: 10px;
+}
+
+/* Nested CSS */
+
+.mainView .tile .stack .flexRow .tile .stack .flexRow {
+    font-size: large;
+    justify-content: space-between;
+
+}
+
+.mainView .tile .stack .flexRow .tile .stack .flexRow:first-child {
+    font-weight: bold;
+
+}
+
+.tile:hover {
+    box-shadow: 5px 10px #DDDDDD;
+    margin-bottom: 15px;
+}

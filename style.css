@@ -173,6 +173,12 @@ h3 {
     margin-top: 10px;
 }
 
+/* SECTIONS */
+
+section {
+    padding-top: 10px;
+}
+
 /* Nested CSS */
 
 .mainView .tile .stack .flexRow .tile .stack .flexRow {
@@ -184,9 +190,6 @@ h3 {
 .mainView .tile .stack .flexRow .tile .stack .flexRow:first-child {
     font-weight: bold;
 
-}
-
-.mainView .tile .stack .flexRow .tile .stack {
 }
 
 .tile:hover {
